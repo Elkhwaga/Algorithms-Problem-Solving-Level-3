@@ -1,0 +1,3 @@
+add_executable(convert_line_data_to_record src/main.cpp)
+
+target_link_libraries(convert_line_data_to_record client display)

@@ -1,0 +1,3 @@
+add_executable(lower_first_letter_of_each_word src/main.cpp)
+
+target_link_libraries(lower_first_letter_of_each_word stringLib input display)

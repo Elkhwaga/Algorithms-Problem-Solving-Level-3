@@ -1,0 +1,3 @@
+add_executable(delete_client_by_account_number src/main.cpp)
+
+target_link_libraries(delete_client_by_account_number client display input fileHandler)

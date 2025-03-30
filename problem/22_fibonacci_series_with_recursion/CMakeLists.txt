@@ -1,0 +1,3 @@
+add_executable(fibonacci_series_with_recursion src/main.cpp)
+
+target_link_libraries(fibonacci_series_with_recursion math display)

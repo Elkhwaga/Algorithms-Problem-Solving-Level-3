@@ -1,0 +1,3 @@
+add_executable(count_each_word_in_string src/main.cpp)
+
+target_link_libraries(count_each_word_in_string stringLib input display)

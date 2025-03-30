@@ -1,0 +1,3 @@
+add_executable(join_string_overloading src/main.cpp)
+
+target_link_libraries(join_string_overloading stringLib display)

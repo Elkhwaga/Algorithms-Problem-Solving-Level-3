@@ -1,0 +1,3 @@
+add_executable(upper_lower_all_letters_of_a_string src/main.cpp)
+
+target_link_libraries(upper_lower_all_letters_of_a_string stringLib input display)

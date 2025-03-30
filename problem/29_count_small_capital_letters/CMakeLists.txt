@@ -1,0 +1,3 @@
+add_executable(count_small_capital_letters src/main.cpp)
+
+target_link_libraries(count_small_capital_letters stringLib input display)

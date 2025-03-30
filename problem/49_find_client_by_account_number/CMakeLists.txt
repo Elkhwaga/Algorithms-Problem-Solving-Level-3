@@ -1,0 +1,3 @@
+add_executable(find_client_by_account_number src/main.cpp)
+
+target_link_libraries(find_client_by_account_number client display)

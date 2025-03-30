@@ -1,0 +1,3 @@
+add_executable(intersected_numbers_in_matrices src/main.cpp)
+
+target_link_libraries(intersected_numbers_in_matrices matrix display array)

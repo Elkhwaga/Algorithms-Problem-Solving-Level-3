@@ -1,0 +1,3 @@
+add_executable(print_middle_row_and_col_of_matrix src/main.cpp)
+
+target_link_libraries(print_middle_row_and_col_of_matrix matrix display array)

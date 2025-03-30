@@ -1,0 +1,3 @@
+add_executable(update_client_by_account_number src/main.cpp)
+
+target_link_libraries(update_client_by_account_number client display input fileHandler)
